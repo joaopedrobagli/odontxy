@@ -12,16 +12,16 @@ const Header = () => {
             <img src="/logo.png" className="h-24 w-auto mr-10"/>
           </div>
           
-          <nav className="hidden md:flex items-center space-x-8">
-            <a href="#hero" className="text-gray-500 hover:text-gray-900 transition-colors duration-200">Home</a>
-            <a href="#sobre" className="text-gray-500 hover:text-gray-900 transition-colors duration-200">Sobre a Clínica</a>
-            <a href="#serviços" className="text-gray-500 hover:text-gray-900 transition-colors duration-200">Serviços</a>
-            <a href="#especialistas" className="text-gray-500 hover:text-gray-900 transition-colors duration-200">Especialistas</a>
-            <a href="#contato" className="text-gray-500 hover:text-gray-900 transition-colors duration-200">Contato</a>
-          </nav>
+         <nav className="hidden md:flex items-center">
+            <a href="#hero" className="text-gray-700 px-4 py-2">Home</a>
+            <a href="#sobre" className="text-gray-700 px-4 py-2">Sobre</a>
+            <a href="#servicos" className="text-gray-700 px-4 py-2">Serviços</a>
+            <a href="#especialistas" className="text-gray-700 px-4 py-2">Equipe</a>
+            <a href="#contato" className="text-gray-700 px-4 py-2">Contato</a>
+         </nav>
           
           <div className="hidden md:flex items-center space-x-4">
-            <button className="bg-[#25D366] text-white px-4 py-2 rounded text-sm font-medium hover:bg-[#1ebe5d]">
+            <button className="bg-[#42C4C7] text-white px-4 py-2 rounded text-sm font-medium hover:bg-[#32B4B7] transition-all">
               Entre em contato
             </button>
           </div>
@@ -34,7 +34,7 @@ const Header = () => {
         {menu && (
           <div className="md:hidden bg-white border-t">
             <div className="flex flex-col py-4">
-              <a href="#home" className="py-3 px-4 text-gray-500 hover:text-gray-900 hover:bg-gray-50" onClick={() => setMenu(false)}>Home</a>
+              <a href="#hero" className="py-3 px-4 text-gray-500 hover:text-gray-900 hover:bg-gray-50" onClick={() => setMenu(false)}>Home</a>
               <a href="#sobre" className="py-3 px-4 text-gray-500 hover:text-gray-900 hover:bg-gray-50" onClick={() => setMenu(false)}>Sobre a Clínica</a>
               <a href="#serviços" className="py-3 px-4 text-gray-500 hover:text-gray-900 hover:bg-gray-50" onClick={() => setMenu(false)}>Serviços</a>
               <a href="#especialistas" className="py-3 px-4 text-gray-500 hover:text-gray-900 hover:bg-gray-50" onClick={() => setMenu(false)}>Especialistas</a>

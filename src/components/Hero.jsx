@@ -12,9 +12,9 @@ const Hero = () => {
             <p className="text-lg text-gray-600 mb-8">
               Cuidamos da sua saúde bucal com tecnologia avançada e profissionais preparados para oferecer conforto, segurança e resultados incríveis.
             </p>
-            <button className="bg-[#25D366] hover:bg-[#1ebe5d] text-white px-8 py-3 rounded-lg font-semibold">
+           <button className="px-10 py-3 font-semibold rounded-xl text-white bg-[#42C4C7] border-[3px] border-white/40 shadow-[0_0_15px_#42C4C777] hover:shadow-[0_0_25px_#42C4C7] transition-all">
               Conhecer Especialistas
-            </button>
+          </button>
           </div>
           
           <div className="relative">
