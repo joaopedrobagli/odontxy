@@ -13,7 +13,7 @@ const Header = () => {
           </div>
           
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-gray-500 hover:text-gray-900 transition-colors duration-200">Home</a>
+            <a href="#hero" className="text-gray-500 hover:text-gray-900 transition-colors duration-200">Home</a>
             <a href="#sobre" className="text-gray-500 hover:text-gray-900 transition-colors duration-200">Sobre a Clínica</a>
             <a href="#serviços" className="text-gray-500 hover:text-gray-900 transition-colors duration-200">Serviços</a>
             <a href="#especialistas" className="text-gray-500 hover:text-gray-900 transition-colors duration-200">Especialistas</a>
