@@ -40,7 +40,7 @@ const Header = () => {
               <a href="#especialistas" className="py-3 px-4 text-gray-500 hover:text-gray-900 hover:bg-gray-50" onClick={() => setMenu(false)}>Especialistas</a>
               <a href="#contato" className="py-3 px-4 text-gray-500 hover:text-gray-900 hover:bg-gray-50" onClick={() => setMenu(false)}>Contato</a>
               
-              <button className="mx-4 mt-4 bg-[#25D366] text-white py-3 rounded text-sm font-medium hover:bg-[#1ebe5d]">
+              <button className="mx-4 mt-4 bg-[#42C4C7] text-white py-3 rounded text-sm font-medium hover:bg-[#1ebe5d]">
                 Entre em contato
               </button>
             </div>
